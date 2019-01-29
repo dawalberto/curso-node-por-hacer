@@ -1,1 +1,6 @@
-[{"descripcion":"Salir de la casa","completado":false},{"descripcion":"Pasear al perro","completado":true},{"descripcion":"Ir a la cama","completado":true}]
+[
+  {
+    "descripcion": "Ir a dormir",
+    "completado": false
+  }
+]

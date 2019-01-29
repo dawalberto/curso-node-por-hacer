@@ -6,7 +6,7 @@ let listadoPorHacer = [];
 
 const guardarDB = () => {
 
-    let data = JSON.stringify(listadoPorHacer);
+    let data = JSON.stringify(listadoPorHacer, null, 2);
 
     fs.writeFile('db/data.json', data, (err) => {
 
